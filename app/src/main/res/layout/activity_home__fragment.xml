@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+        <customfonts.MyTextView_Roboto_Bold
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#080e12"
+            android:layout_marginLeft="10dp"
+            android:text="Jobs In Your Network"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See All"
+            android:textColor="#808385"/>
+    </LinearLayout>
+
+
+    <!--RecyclerView used-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0dp"
+        android:paddingLeft="25dp"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:divider="#fff"
+        android:background="#fff"
+        android:scrollbars="none" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#e8e8e8"/>
+
+    <customfonts.MyTextView_Roboto_Bold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#080e12"
+        android:text="People in your newtork"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <!--RecyclerView used-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:dividerHeight="0dp"
+        android:paddingLeft="25dp"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:paddingBottom="100dp"
+        android:divider="#fff"
+        android:background="#fff"
+        android:scrollbars="none" />
+
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+</LinearLayout>

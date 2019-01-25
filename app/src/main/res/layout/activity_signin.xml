@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="91dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:background="@drawable/pallylogo" />
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:text="Pally"
+            android:textColor="#4fc1ba" />
+
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="67dp"
+            android:background="@drawable/rounded_grey"
+            android:hint="First Name"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:paddingLeft="20dp" />
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_grey"
+            android:hint="Last Name"
+            android:maxLines="1"
+            android:textSize="13sp"
+            android:paddingLeft="20dp" />
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_grey"
+            android:hint="Password"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_grey"
+            android:hint="Repassword"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <customfonts.Button_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corner"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="22dp"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>

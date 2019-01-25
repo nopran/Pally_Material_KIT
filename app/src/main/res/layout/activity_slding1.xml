@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/rect_img"
+        android:background="@drawable/profile_image"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="31sp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:text="Create your network of professional"/>
+
+</FrameLayout>

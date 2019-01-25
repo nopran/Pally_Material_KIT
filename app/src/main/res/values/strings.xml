@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pally</string>
+
+    <string name="cd_item_delete_button">Delete item</string>
+</resources>

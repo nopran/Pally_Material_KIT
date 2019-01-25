@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.remmss.pally.Home_Activity">
+
+
+
+
+    <FrameLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"></FrameLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/search_layout"/>
+
+    <!--roughike bottombar library used-->
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:gravity="bottom"
+        app:bb_activeTabColor="#ffffff"
+        app:bb_badgesHideWhenActive="false"
+        app:bb_inActiveTabColor="#a4ebfe"
+        app:bb_showShadow="false"
+        app:bb_tabXmlResource="@xml/tab"
+        app:paddingStart="10dp"
+        app:bb_titleTextAppearance="@style/botoombar_textchange"
+        app:bb_titleTypeFace="fonts/Roboto-Regular.ttf" />
+
+</RelativeLayout>

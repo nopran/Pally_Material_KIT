@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#01c4d5</color>
+    <color name="white">#01c4d5</color>
+
+
+    <!--bottom tab text color-->
+
+    <color name="tab_select_txt">#ffffff</color>
+    <color name="tab_unselect_txt">#a3e1ff</color>
+</resources>

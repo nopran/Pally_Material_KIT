@@ -1,0 +1,33 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home_icons"
+        title="Home"
+        activeColor="#ffffff"
+        badgeBackgroundColor="#FF0000"
+        badgeHidesWhenActive="true"
+        inActiveColor="#a3e1ff"
+        />
+    <tab
+        id="@+id/topchart"
+        icon="@drawable/ic_network_icons"
+        title="Network"
+        activeColor="#ffffff"
+        inActiveColor="#a3e1ff"
+        />
+    <tab
+        id="@+id/likeyou"
+        icon="@drawable/ic_profile_icons"
+        title="Profile"
+        activeColor="#ffffff"
+        inActiveColor="#a3e1ff"
+        />
+
+    <tab
+        id="@+id/profile"
+        icon="@drawable/ic_setting_icons"
+        title="Settings"
+        activeColor="#ffffff"
+        inActiveColor="#a3e1ff"
+        />
+</tabs>

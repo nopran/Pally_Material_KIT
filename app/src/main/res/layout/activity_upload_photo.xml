@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/pallylogo"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pally"
+            android:textSize="12sp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:textColor="#22b1a8"
+            android:textAllCaps="true"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:paddingTop="100dp"
+        android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Your Photo"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="#080e12"/>
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="it's always good to put face to your name"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="#bebfc0"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/upload_image"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <customfonts.Button_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corner"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"/>
+
+
+
+
+</RelativeLayout>

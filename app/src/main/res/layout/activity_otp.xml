@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="67dp"
+            android:layout_height="63dp"
+           android:layout_centerHorizontal="true"
+            android:src="@drawable/pally_logo" />
+
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Mobile Verification"
+            android:textColor="#6f6f6f"
+            android:textSize="16sp" />
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="OTP has been sent on youe mobile number"
+            android:textColor="#6f6f6f" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="+91 - 9429283901"
+                android:textColor="#056f79" />
+
+            <ImageView
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_edit"
+                android:tint="#056f79" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <com.mukesh.OtpView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#000"
+
+            ></com.mukesh.OtpView>
+
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did'nt receive the code?"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#808385"
+            android:layout_marginTop="30dp"
+            android:textSize="12dp" />
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_horizontal"
+            android:text="RESEND CODE"
+            android:textColor="#068f98"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center">
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="DONE"
+            android:textColor="#fff" />
+
+    </LinearLayout>-->
+
+    <customfonts.Button_Roboto_Medium
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corner"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="25dp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
